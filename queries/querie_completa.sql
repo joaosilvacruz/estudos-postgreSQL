@@ -74,3 +74,20 @@ SELECT cpf, rg FROM cliente;
 SELECT 'CPF: ' || cpf || ' RG: ' || rg AS "CPF e RG" FROM cliente;
 
 SELECT * FROM cliente LIMIT 3;
+
+SELECT nome, data_nascimento FROM cliente WHERE data_nascimento > '2000-01-01'
+
+SELECT nome FROM cliente WHERE nome LIKE '%c%';
+
+SELECT nome, data_nascimento 
+FROM cliente 
+WHERE data_nascimento BETWEEN '1990-01-01' AND '1998-01-01';
+
+SELECT nome, rg FROM cliente
+WHERE rg IS null;
+
+SELECT nome FROM cliente
+ORDER BY nome;
+
+SELECT nome FROM cliente
+ORDER BY nome DESC;
