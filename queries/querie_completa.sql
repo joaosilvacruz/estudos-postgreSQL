@@ -72,3 +72,5 @@ SELECT nome AS "Nome", data_nascimento AS "Data de nascimento" FROM cliente;
 SELECT cpf, rg FROM cliente;
 
 SELECT 'CPF: ' || cpf || ' RG: ' || rg AS "CPF e RG" FROM cliente;
+
+SELECT * FROM cliente LIMIT 3;
