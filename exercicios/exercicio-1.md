@@ -35,7 +35,7 @@ WHERE nome LIKE '%A'
 
 ```
 SELECT nome FROM cliente
-WHERE nome ILIKE 'Centro'
+WHERE bairro = 'Centro'
 ```
 
 6. Os clientes que moram em complementos que iniciam com a letra “A”
@@ -70,7 +70,7 @@ ORDER BY profissao ASC
 
 ```
 SELECT nome, nacionalidade FROM cliente
-WHERE nacionalidade ILIKE 'Brasileira'
+WHERE nacionalidade ILIKE 'Brasileir_'
 ```
 
 11. Os clientes que informaram o número da residência
