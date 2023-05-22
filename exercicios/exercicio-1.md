@@ -2,7 +2,7 @@
 
 Realize as seguintes consultas:
 
-1. O nome, o sexo e a profissão de todos os cleintes, Ordenado pelo nome em ordem descrescnte
+1. O nome, o sexo e a profissão de todos os clientes, Ordenado pelo nome em ordem descrescnte
 
 ```
 SELECT nome, genero, profissao 
