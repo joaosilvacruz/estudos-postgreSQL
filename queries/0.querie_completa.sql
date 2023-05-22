@@ -91,3 +91,5 @@ ORDER BY nome;
 
 SELECT nome FROM cliente
 ORDER BY nome DESC;
+
+SELECT * from cliente
